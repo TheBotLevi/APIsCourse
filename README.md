@@ -22,7 +22,7 @@ to see things like:
 `curl -v _URL_`
 
 -- curl -v https://echo.hoppscotch.io
-
+````
 * Host echo.hoppscotch.io:443 was resolved.
 * IPv6: 2a05:d014:58f:6200::258, 2a05:d014:58f:6200::259
 * IPv4: 63.176.8.218, 35.157.26.135
@@ -118,10 +118,10 @@ to see things like:
   "isBase64Encoded": true
 * Connection #0 to host echo.hoppscotch.io left intact
 }%
-
+````
 ----------------------------------------------------------------------------------------------------------
 
-# What's an endpoint?
+## What's an endpoint?
 
 an endpoint is a specific point where something starts, ends or can be accessed - especially in tech
 
@@ -138,7 +138,7 @@ Think of it like:
 - a door to a system
 - you send a request → it sends back data
 
-## Real world analogy
+### Real world analogy
 
 Imagine ordering food:
 
@@ -147,7 +147,7 @@ Imagine ordering food:
 
 --------------------------------
 
-# A Query String?
+## A Query String?
 
 Syntax:
 
@@ -158,7 +158,7 @@ Syntax:
     
 --------------------------------
 
-# Response
+## Response
 
 Response status codes:
 
@@ -170,11 +170,11 @@ Response status codes:
 
 - 5xx (server error)
     
-# Crud operations?
+## Crud operations?
 
 C → create → POST
 R → read → GET
 U → update → PUT/PATCH
 D → delete → DELETE
 
-* (put → updates a user full, patch → updates a user partial)
+(put → updates a user full, patch → updates a user partial)
