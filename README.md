@@ -173,8 +173,11 @@ Response status codes:
 ## Crud operations?
 
 C → create → POST
+
 R → read → GET
+
 U → update → PUT/PATCH
+
 D → delete → DELETE
 
 (put → updates a user full, patch → updates a user partial)
